@@ -1,4 +1,7 @@
-class Home extends React.Component {
+import { Outlet, Link } from "react-router-dom";
+import React from "react"
+
+class Homepage extends React.Component {
     constructor(props) {
         super(props)
         this.state={
@@ -23,8 +26,8 @@ class Home extends React.Component {
 
 
 
-const Home = () => {
-  return <h1>Home Page</h1>;
-};
+ const Home = () => {
+   return (<div><h1>Home Page</h1> <Homepage/> </div>)
+ };
 
 export default Home;

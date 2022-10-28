@@ -1,3 +1,6 @@
+import { Outlet, Link } from "react-router-dom";
+import React from "react"
+
 class About extends React.Component {
     constructor(props) {
         super(props)
@@ -23,7 +26,7 @@ class About extends React.Component {
 
 
 const AboutMe = () => {
-  return <h1>About Our page</h1>;
+  return (<div><h1>About Our page</h1> <About/></div>)
 };
 
 export default AboutMe;

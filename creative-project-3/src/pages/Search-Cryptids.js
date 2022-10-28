@@ -1,3 +1,6 @@
+import { Outlet, Link } from "react-router-dom";
+import React from "react"
+
 class Search extends React.Component {
     constructor(props) {
         super(props)
@@ -29,7 +32,7 @@ class Search extends React.Component {
 
 
 const SearchCryptids = () => {
-  return <h1>Find Cryptids Near You</h1>;
+  return (<div><h1>Find Cryptids Near You</h1> <Search/> </div>)
 };
 
 export default SearchCryptids;
