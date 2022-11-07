@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import React from "react"
+import styles from './About-Me.css';
 
 class About extends React.Component {
     constructor(props) {

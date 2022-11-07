@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import React from "react"
+import styles from './Search-Cryptids.js';
 
 class Search extends React.Component {
     constructor(props) {

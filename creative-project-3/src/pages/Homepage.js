@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import React from "react"
+import styles from './Homepage.js';
 
 class Homepage extends React.Component {
     constructor(props) {

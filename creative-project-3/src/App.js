@@ -4,6 +4,7 @@ import Layout from "./pages/Project-Layout";
 import Homepage from "./pages/Homepage";
 import SearchCryptids from "./pages/Search-Cryptids";
 import AboutMe from "./pages/About-Me";
+import styles from'./App.css';
 
 export default function App() {
   return (
