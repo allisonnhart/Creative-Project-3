@@ -19,6 +19,10 @@ class Homepage extends React.Component {
                 as we continue developing our page!</p>
                 <p>Feel free to explore our page and leave us a review! (when we
                 create one, of course)</p>
+                
+                <div class = "github-link">
+                <a href='https://github.com/allisonnhart/Creative-Project-3'>Github Link Here!</a>
+                </div>
             
             </div>
         )

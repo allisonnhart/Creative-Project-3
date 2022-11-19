@@ -8,7 +8,7 @@ import styles from'./App.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Creative-Project-3/creative-project-3/build'>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />} />

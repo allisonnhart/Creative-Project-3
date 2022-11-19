@@ -12,7 +12,7 @@ class About extends React.Component {
     
     render() {
         return(
-            <div>
+            <div class>
                 <p>We started with just a simple idea- what if you could search
                 up cryptids in your area?</p>
                 <p>Think of us as a popular search engine- but specifically for cryptids.</p>
