@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-function App() {
+function App2() {
   // setup state
   const [cryptid, setCryptid] = useState([]);
   const [error, setError] = useState("");
@@ -93,4 +93,4 @@ function App() {
   );
 }
 
-export default App;
+export default App2;

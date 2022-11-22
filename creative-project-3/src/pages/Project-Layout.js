@@ -15,6 +15,9 @@ const Layout = () => {
           <li>
             <Link to="/search-cryptids">Find-Cryptids-Near-You</Link>
           </li>
+          <li>
+            <Link to="/App2">Submit-Cryptid</Link>
+          </li>
           </div>
         </ul>
       </nav>

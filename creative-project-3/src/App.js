@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import SearchCryptids from "./pages/Search-Cryptids";
 import AboutMe from "./pages/About-Me";
 import styles from'./App.css';
+import App2 from "./App2";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<Homepage />} />
           <Route path="about-me" element={<AboutMe />} />
           <Route path="search-Cryptids" element={<SearchCryptids />} />
+          <Route path="App2" element={<App2 />} />
         </Route>
       </Routes>
     </BrowserRouter>
